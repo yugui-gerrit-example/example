@@ -115,17 +115,12 @@ main (int argc, char *argv[])
 
        [Note: For best viewing results use a UTF-8 locale, please.]
     */
-	printf (_("\
-+---------------+\n\
-| Hello, world! |\n\
-+---------------+\n\
-"));
-
+	printf (_("Hello World!"));
   else if (g == greet_user)
     puts (greeting_msg);
 
   else if (g == greet_gnu)
-    puts (_("Hello, world!"));
+    puts (_("Hello, world?!"));
   
   else {
     /* No need for this impossible message to be translated.  */
